@@ -1,0 +1,14 @@
+#quote-box {
+  background-color: black;
+  width: 400px;
+  min-height: 200px;
+  color: #fff;
+}
+
+#test {
+  background-color: red;
+}
+
+.fas {
+  margin-right: 5px;
+}

@@ -1,8 +1,14 @@
-import logo from './logo.svg';
+import { Provider } from 'react-redux';
+import Container from './components/Container';
+import { store } from './store/index.js'
 import './App.css';
 
 function App() {
   return (
+    <Provider store={store}>
+      <Container />
+    </Provider>
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,7 +24,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div>*/
   );
 }
 

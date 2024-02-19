@@ -1,21 +1,21 @@
 ### User Story #1
-    [ ] I can see a wrapper element with a corresponding id="quote-box".
+    [×] I can see a wrapper element with a corresponding id="quote-box".
 
 ### User Story #2
 	=> Within #quote-box
-	[ ] I can see an element with a corresponding id="text".
+	[×] I can see an element with a corresponding id="text".
 
 ### User Story #3
 	=> Within #quote-box
-	[ ] I can see an element with a corresponding id="author".
+	[×] I can see an element with a corresponding id="author".
 
 ### User Story #4
 	=> Within #quote-box
-	[ ] I can see a clickable element with a corresponding id="new-quote".
+	[×] I can see a clickable element with a corresponding id="new-quote".
 
 ### User Story #5
 	=> Within #quote-box
-	[ ] I can see a clickable a element with a corresponding id="tweet-quote".
+	[×] I can see a clickable a element with a corresponding id="tweet-quote".
 
 ### User Story #6
 	=>  On first load
