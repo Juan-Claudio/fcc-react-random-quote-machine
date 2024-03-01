@@ -10,7 +10,17 @@ export default class QuoteBox extends React.Component
     }
 
     handleClick(){
+        const hexColors = [
+            "ccf",
+            "f2ccff",
+            "cfc",
+            "fcc",
+            "e6ccff",
+            "ffe6cc",
+            "cff"
+        ]
         this.props.getNewQuote()
+        document.body.style.backgroundColor = '#'+hexColors[Math.floor(Math.random()*hexColors.length)]
     }
 
     render()
@@ -22,7 +32,7 @@ export default class QuoteBox extends React.Component
                 <div className="row">
                     <div className="col-xs-10">
                         <div className="text-center fs-3" id="text">
-                            <i className="fas fa-quote-left"></i>
+                            <i className="fas fa-quote-left me-3"></i>
                             <b>{this.props.currentQuote.text}</b>
                         </div>
                     </div>
@@ -38,7 +48,9 @@ export default class QuoteBox extends React.Component
                 {/* buttons row */}
                 <div className="row">
                     <div className="col-xs-10  d-flex justify-content-around">
-                        <button className="btn btn-light" id="tweet-quote"><i class="fab fa-twitter"></i></button>
+                        <button className="btn btn-light">
+                            <a id="tweet-quote" href={"https://www.twitter.com/intent/tweet?"+this.props.currentQuote.text+' - '+this.props.currentQuote.author} target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
+                        </button>
                         <button className="btn btn-light" id="new-quote" onClick={this.handleClick}>New quote</button>
                     </div>
                 </div>

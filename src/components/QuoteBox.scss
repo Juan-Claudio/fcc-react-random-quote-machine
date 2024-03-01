@@ -2,15 +2,7 @@ $w: 400px;
 $h: 200px;
 #quote-box
 {
-    background-color: black;
+    background-color: rgba(0,0,0,0.7);
     width:$w; min-height:$h;
     color:#fff;
-}
-#test
-{
-  background-color: red;
-}
-.fas
-{
-    margin-right:5px;
 }

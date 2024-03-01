@@ -19,29 +19,29 @@
 
 ### User Story #6
 	=>  On first load
-    [ ] My quote machine displays a random quote in the element with id="text".
+    [×] My quote machine displays a random quote in the element with id="text".
 
 ### User Story #7
     =>  On first load
-	[ ] My quote machine displays the random quote's author in the element with id="author".
+	[×] My quote machine displays the random quote's author in the element with id="author".
 
 ### User Story #8
 	=> When the #new-quote button is clicked
-	[ ] My quote machine should fetch a new quote and display it in the #text element.
+	[×] My quote machine should fetch a new quote and display it in the #text element.
 
 ### User Story #9
 	=> When the #new-quote button is clicked
-    [ ] My quote machine should fetch the new quote's author
+    [×] My quote machine should fetch the new quote's author
 
     => When the #new-quote button is clicked
     => In the #author element
-    [ ] My quote machine should display the new quote's author
+    [×] My quote machine should display the new quote's author
 
 ### User Story #10
-	[ ] I can tweet the current quote by clicking on the #tweet-quote a element.
-    [ ] This a element should include the "twitter.com/intent/tweet" path in its href attribute to tweet the current quote.
+	[×] I can tweet the current quote by clicking on the #tweet-quote a element.
+    [×] This a element should include the "twitter.com/intent/tweet" path in its href attribute to tweet the current quote.
 
 ### User Story #11
-	[ ] The #quote-box wrapper element should be horizontally centered.
+	[×] The #quote-box wrapper element should be horizontally centered.
 
 /!\ Please run tests with browser's zoom level at 100% and page maximized. /!\
